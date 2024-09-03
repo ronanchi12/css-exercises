@@ -27,20 +27,17 @@ img {
 
 /* SOLUTION */
 
-body {
+body{
   text-align: center;
 }
 
-.title {
-  margin-bottom: 32px;
-}
-
-.container {
+.container{
   display: flex;
-  justify-content: center;
   gap: 52px;
+  justify-content: center;
+  margin: 32px auto;
 }
 
-.info {
+.info{
   max-width: 200px;
 }
